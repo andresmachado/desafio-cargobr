@@ -34,3 +34,7 @@ Escolhi essas ferramentas por serem parte oficial do meu toolset, além de conse
 
 3 - Acesse a API browseavel
 > http://localhost:8000/api
+
+> Usuário: admin
+
+> Senha: cargobr2016
