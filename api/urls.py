@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from . import views 
 
 router = DefaultRouter()
-router.register(r'maps', views.MapViewSet)
+router.register(r'maps', views.MapViewSet, base_name='Map')
 router.register(r'routes', views.RoutesViewSet)
 
 urlpatterns = [
