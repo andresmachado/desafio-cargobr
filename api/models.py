@@ -16,7 +16,7 @@ class Map(models.Model):
 class Route(models.Model):
     map_name = models.ForeignKey(Map, verbose_name='Mapa', related_name='routes')
     origin = models.CharField('Origem', max_length=255)
-    destiy = models.CharField('Destino', max_length=255)
+    destiny = models.CharField('Destino', max_length=255)
     distance = models.PositiveSmallIntegerField('Distancia em km')
 
     def __str__(self):
