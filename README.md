@@ -17,10 +17,12 @@ Com os mapas carregados o requisitante irá procurar o menor valor de entrega e 
 
 # Ferramentas escolhidas
 > Django 1.10
+
 > Django-rest-framework 3.5.2
+
 > sqlite3
 
-### Escolhi essas ferramentas por serem parte oficial do meu toolset, além de conseguir configurar um ambiente para desenvolver a solução em minutos.
+Escolhi essas ferramentas por serem parte oficial do meu toolset, além de conseguir configurar um ambiente para desenvolver a solução em minutos.
 
 # Como executar o código
 
