@@ -26,21 +26,21 @@ Escolhi essas ferramentas por serem parte oficial do meu toolset, além de conse
 
 # Como executar o código
 
-1 - Instale os requisitos
+### 1 - Instale os requisitos
 > pip install -r requirements.txt
 
-2 - Rode o servidor
+### 2 - Rode o servidor
 > python3 manage.py runserver
 
-3 - Acesse a API browseavel
+### 3 - Acesse a API browseavel
 > http://localhost:8000/api
 
 > Usuário: admin
 
 > Senha: cargobr2016
 
-3 - Como realizar a consulta
-### Criei um endpoint aninhado visando melhor clareza para capturar as melhores rotas do dado mapa.
+### 4 - Como realizar a consulta
+Criei um endpoint aninhado visando melhor clareza para capturar as melhores rotas do dado mapa.
 
 > http://locahost:8000/api/maps/{pk}/routes/{params}
 
