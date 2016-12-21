@@ -38,3 +38,11 @@ Escolhi essas ferramentas por serem parte oficial do meu toolset, além de conse
 > Usuário: admin
 
 > Senha: cargobr2016
+
+3 - Como realizar a consulta
+### Criei um endpoint aninhado visando melhor clareza para capturar as melhores rotas do dado mapa.
+
+> http://locahost:8000/api/maps/{pk}/routes/{params}
+
+
+> Ex.: http://localhost:8000/api/maps/1/routes/?origem=A&destino=D&autonomia=10&valor_litro=2.50
